@@ -1,3 +1,4 @@
+
 img {
 	width: 20%;
 }
@@ -7,7 +8,11 @@ table, th, td {
 }
 
 h1 {
-	display:inline
+	display:inline;
+}
+
+h2 {
+	text-align: center;
 }
 
 th, td {
@@ -18,6 +23,10 @@ th {
     text-align: justify;
 }
 
+div.columnbase { display: flex; }
+div.col1 { width: 33%; }
+div.col2 { width: 66% }
+
 .red-text { color: red }
 .orange-text { color: orange }
 .yellow-text { color: yellow }
@@ -26,6 +35,25 @@ th {
 .indigo-text { color: indigo }
 .violet-text { color: violet }
 
-.columnbase { display: flex; }
-.col1 { width: 33%; }
-.col2 { width: 66% }
+#lorem {
+
+cursor: pointer;
+text-decoration: underline;
+
+
+}
+
+#bottles {
+
+cursor: pointer;
+text-decoration: underline;
+
+}
+
+#last {
+
+cursor: pointer;
+text-decoration: underline;
+
+}
+
