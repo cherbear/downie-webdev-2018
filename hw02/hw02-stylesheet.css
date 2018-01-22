@@ -1,0 +1,31 @@
+img {
+	width: 20%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+h1 {
+	display:inline
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    text-align: justify;
+}
+
+.red-text { color: red }
+.orange-text { color: orange }
+.yellow-text { color: yellow }
+.green-text { color: green }
+.blue-text { color: blue }
+.indigo-text { color: indigo }
+.violet-text { color: violet }
+
+.columnbase { display: flex; }
+.col1 { width: 33%; }
+.col2 { width: 66% }

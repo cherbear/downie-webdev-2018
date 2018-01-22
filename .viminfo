@@ -12,9 +12,14 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-:quit
 :q
+:q:::::::: ,xz.c kl/dvdnsnkd
 :q!
+:%y
+:gg"+yG
+:gg"*yG
+:%y+
+:quit
 :wq!
 
 # Search String History (newest to oldest):
@@ -27,31 +32,122 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
+""0	LINE	0
+	<!--
+	
+	ATTRIBUTION:
+	
+	Create a web page, "task1.html", that contains the following stuff:
+	
+	A link to the "Learn HTML" tutorial. CHECK
+	A link to the "Learn CSS" tutorial. CHECK
+	A link to a Wikipedia article about an animal. CHECK
+	A picture of that animal, taken from the Wikipedia article. CHECK
+	The name of the animal, as a header, with each letter being a different color.
+	A table of the first eight powers of two in two columns (x and 2^x). There should be visible table cell borders, and space around the contents.
+	Things that can be accomplished with CSS should be done that way, using a single STYLE tag in the page's HEAD
+	
+	-->
+	
+	<!doctype html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Task 1 - HW02</title>
+		<link rel="stylesheet" href="hw02-stylesheet.css">
+	</head>
+	
+	<body>
+		
+		<p>
+		A <a href="https://www.w3schools.com/html/default.asp">link</a> to the Learn HTML tutorial.<br>
+		A <a href="https://www.w3schools.com/css/default.asp">link</a> to the Learn CSS tutorial.<br>
+		A <a href="https://en.wikipedia.org/wiki/Red_panda">link</a> to the Wikipedia article about Red Pandas.<br>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/5/50/RedPandaFullBody.JPG">
+		</p>
+	
+		<table>
+			<tr></tr>
+	
+		</table>
+	
+	</body>
+	
+	</html>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+"-	CHAR	0
+	r
 
 # File marks:
-'0  10  21  ~/www/downie.tech/index.html
-'1  20  6  ~/hw01/index.html
-'2  3  20  ~/www/downie.tech/index.html
-'3  3  18  ~/www/index.html
-'4  1  0  /etc/nginx/sites-available/default
-'5  7  0  /etc/nginx/sites-enabled
-'6  8  39  ~/www/main/index.html
-'7  1  14  ~/www/main/index.html
-'8  36  8  /etc/nginx/sites-enabled/default
-'9  28  17  /etc/ssh/sshd_config
+'0  39  83  ~/hw02/task3.html
+'1  38  35  ~/hw02/task3.html
+'2  1  0  ~/hw02/hw02-stylesheet.css
+'3  50  0  ~/hw02/task3.html
+'4  1  0  ~/hw02/hw02.js
+'5  31  19  ~/hw02/hw02-stylesheet.css
+'6  12  46  ~/www/downie.tech/index.html
+'7  13  42  ~/www/downie.tech/index.html
+'8  5  0  ~/www/main/index.html
+'9  1  0  ~/www/downie.tech/index.html
 
 # Jumplist (newest first):
--'  10  21  ~/www/downie.tech/index.html
+-'  39  83  ~/hw02/task3.html
+-'  1  0  ~/hw02/task3.html
+-'  38  35  ~/hw02/task3.html
+-'  1  0  ~/hw02/hw02-stylesheet.css
+-'  50  0  ~/hw02/task3.html
+-'  1  0  ~/hw02/hw02.js
+-'  31  19  ~/hw02/hw02-stylesheet.css
+-'  12  46  ~/www/downie.tech/index.html
 -'  1  0  ~/www/downie.tech/index.html
--'  20  6  ~/hw01/index.html
+-'  13  42  ~/www/downie.tech/index.html
+-'  5  0  ~/www/main/index.html
+-'  1  0  ~/www/main/index.html
+-'  31  38  ~/hw02/task1.html
+-'  1  0  ~/hw02/task1.html
+-'  7  0  /etc/nginx/sites-available/default
+-'  1  0  /etc/nginx/sites-available/default
+-'  1  0  /etc/nginx/sites-available/downie.tech
+-'  111  0  ~/hw02/hw02.js
+-'  34  6  ~/hw02/task2.html
+-'  1  0  ~/hw02/task2.html
+-'  1  0  /etc/nginx/sites-available/hw02.downie.tech
+-'  25  27  ~/hw02/task1.html
+-'  27  29  ~/hw02/hw02-stylesheet.css
+-'  84  6  ~/hw02/task1.html
+-'  107  1  ~/hw02/task1.html
+-'  198  0  ~/hw02/task1.html
+-'  203  1  ~/hw02/task1.html
+-'  189  6  ~/hw02/task1.html
+-'  197  82  ~/hw02/task1.html
+-'  220  0  ~/hw02/task1.html
+-'  1  0  ~/hw02/index.html
+-'  46  85  ~/hw02/task2.html
+-'  10  8  ~/hw02/index.html
+-'  8  8  ~/hw02/index.html
+-'  9  30  ~/hw02/index.html
+-'  8  4  /etc/nginx/sites-available/hw02.downie.tech
+-'  7  6  ~/hw02/index.html
+-'  6  7  ~/hw02/index.html
+-'  24  0  /etc/nginx/sites-available/downie.tech
+-'  18  28  /etc/nginx/sites-available/hw02.downie.tech
+-'  10  32  ~/hw01/index.html
 -'  1  0  ~/hw01/index.html
+-'  10  21  ~/www/downie.tech/index.html
+-'  16  6  ~/hw01/index.html
 -'  3  20  ~/www/downie.tech/index.html
 -'  3  18  ~/www/index.html
 -'  1  0  ~/www/index.html
--'  1  0  /etc/nginx/sites-available/default
 -'  7  0  /etc/nginx/sites-enabled
 -'  8  39  ~/www/main/index.html
--'  1  0  ~/www/main/index.html
 -'  36  8  /etc/nginx/sites-enabled/default
 -'  1  0  /etc/nginx/sites-enabled/default
 -'  28  17  /etc/ssh/sshd_config
@@ -92,8 +188,6 @@ $
 -'  1  0  /etc/ssh/sshd_config
 -'  28  17  /etc/ssh/sshd_config
 -'  1  0  /etc/ssh/sshd_config
--'  8  39  ~/www/main/index.html
--'  1  0  ~/www/main/index.html
 -'  36  8  /etc/nginx/sites-enabled/default
 -'  1  0  /etc/nginx/sites-enabled/default
 -'  28  17  /etc/ssh/sshd_config
@@ -103,74 +197,53 @@ $
 -'  28  17  /etc/ssh/sshd_config
 -'  1  0  /etc/ssh/sshd_config
 -'  28  17  /etc/ssh/sshd_config
--'  1  0  /etc/ssh/sshd_config
--'  36  8  /etc/nginx/sites-enabled/default
--'  1  0  /etc/nginx/sites-enabled/default
--'  28  17  /etc/ssh/sshd_config
--'  1  0  /etc/ssh/sshd_config
--'  28  17  /etc/ssh/sshd_config
--'  1  0  /etc/ssh/sshd_config
--'  28  17  /etc/ssh/sshd_config
--'  1  0  /etc/ssh/sshd_config
--'  28  17  /etc/ssh/sshd_config
--'  1  0  /etc/ssh/sshd_config
--'  36  8  /etc/nginx/sites-enabled/default
--'  1  0  /etc/nginx/sites-enabled/default
--'  28  17  /etc/ssh/sshd_config
--'  1  0  /etc/ssh/sshd_config
--'  28  17  /etc/ssh/sshd_config
--'  1  0  /etc/ssh/sshd_config
--'  28  17  /etc/ssh/sshd_config
--'  1  0  /etc/ssh/sshd_config
--'  28  17  /etc/ssh/sshd_config
--'  1  0  /etc/ssh/sshd_config
--'  36  8  /etc/nginx/sites-enabled/default
--'  1  0  /etc/nginx/sites-enabled/default
--'  28  17  /etc/ssh/sshd_config
--'  1  0  /etc/ssh/sshd_config
--'  28  17  /etc/ssh/sshd_config
--'  1  0  /etc/ssh/sshd_config
--'  28  17  /etc/ssh/sshd_config
--'  1  0  /etc/ssh/sshd_config
--'  28  17  /etc/ssh/sshd_config
--'  1  0  /etc/ssh/sshd_config
--'  7  0  /etc/nginx/sites-enabled
--'  8  39  ~/www/main/index.html
--'  1  0  ~/www/main/index.html
--'  36  8  /etc/nginx/sites-enabled/default
--'  1  0  /etc/nginx/sites-enabled/default
 
 # History of marks within files (newest to oldest):
 
+> ~/hw02/task3.html
+	"	39	83
+	^	39	84
+	.	39	83
+	+	1	1669
+	+	1	1619
+	+	1	84
+	+	1	84
+	+	1	57
+	+	49	7
+	+	38	40
+	+	39	83
+
+> ~/hw02/hw02-stylesheet.css
+	"	1	0
+	^	31	20
+	.	31	0
+	+	1	42
+	+	1	40
+	+	27	30
+	+	31	0
+
+> ~/hw02/hw02.js
+	"	1	0
+	^	1	0
+	.	65	0
+	+	110	0
+	+	65	0
+
 > ~/www/downie.tech/index.html
-	"	10	21
-	^	10	22
-	.	10	22
-	+	20	0
+	"	12	46
+	^	12	47
+	.	12	46
+	+	21	0
 	+	3	29
 	+	8	0
 	+	13	7
 	+	10	22
-
-> ~/hw01/index.html
-	"	20	6
-	^	20	7
-	.	20	0
-	+	20	0
-
-> ~/www/index.html
-	"	3	18
-	^	3	19
-	.	3	18
-	+	19	7
-	+	3	18
-
-> /etc/nginx/sites-available/default
-	"	1	0
+	+	13	42
+	+	12	46
 
 > ~/www/main/index.html
-	"	8	39
-	^	8	40
+	"	5	0
+	^	5	0
 	.	8	39
 	+	19	0
 	+	3	29
@@ -178,6 +251,106 @@ $
 	+	8	21
 	+	9	22
 	+	8	39
+
+> ~/hw02/task1.html
+	"	31	38
+	^	31	39
+	.	31	38
+	+	1	935
+	+	1	650
+	+	1	880
+	+	1	786
+	+	220	0
+	+	197	62
+	+	187	29
+	+	188	48
+	+	197	85
+	+	198	5
+	+	200	8
+	+	203	0
+	+	201	10
+	+	166	0
+	+	107	1
+	+	84	7
+	+	24	31
+	+	25	27
+	+	26	30
+	+	27	29
+	+	28	31
+	+	29	31
+	+	30	0
+	+	85	0
+	+	25	27
+	+	31	38
+
+> /etc/nginx/sites-available/default
+	"	7	0
+
+> /etc/nginx/sites-available/downie.tech
+	"	1	0
+
+> ~/hw02/task2.html
+	"	34	6
+	^	34	7
+	.	34	0
+	+	49	0
+	+	41	195
+	+	47	0
+	+	37	20
+	+	46	0
+	+	41	0
+	+	42	101
+	+	44	82
+	+	45	40
+	+	34	0
+
+> /etc/nginx/sites-available/hw02.downie.tech
+	"	1	0
+	^	8	5
+	.	8	5
+	+	14	22
+	+	18	28
+	+	8	5
+
+> ~/hw02/index.html
+	"	1	0
+	^	10	9
+	.	10	9
+	+	17	6
+	+	6	12
+	+	2	6
+	+	3	25
+	+	6	6
+	+	7	0
+	+	12	0
+	+	8	21
+	+	10	21
+	+	9	16
+	+	10	16
+	+	8	24
+	+	3	23
+	+	8	19
+	+	9	24
+	+	10	30
+	+	9	30
+	+	8	9
+	+	9	9
+	+	10	9
+
+> ~/hw01/index.html
+	"	10	32
+	^	10	33
+	.	11	0
+	+	16	0
+	+	10	10
+	+	11	0
+
+> ~/www/index.html
+	"	3	18
+	^	3	19
+	.	3	18
+	+	19	7
+	+	3	18
 
 > /etc/nginx/sites-enabled/default
 	"	36	8
